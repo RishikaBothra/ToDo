@@ -46,4 +46,18 @@ button{
 }
  ul li {
     cursor: pointer;
+    list-style: none;
+    padding: 7px;
+    position:relative;
+
+
+ }
+ ul li::before{
+    content:'';
+    height:28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(url(imges/black box.jpeg));
+    background-position:center;
+
  }
