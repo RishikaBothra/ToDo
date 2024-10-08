@@ -1,63 +1,59 @@
-:root{
-background-color: #aee2d7;
+:root {
+    background-color: #aee2d7;
 
 }
+
 h1 {
-     text-align: center;
-     font-size: 75px;
-     font-family:cursive;
-     line-height: 20px;
-     color:#ceac7f
-     
+    text-align: center;
+    font-size: 75px;
+    font-family: cursive;
+    line-height: 20px;
+    color: #ceac7f
 }
-h3{
+
+h3 {
     text-align: center;
     font-size: 35px;
-    font-family:cursive;
-    
+    font-family: cursive;
+
 }
-.container{
+
+.container {
     text-align: center;
     padding-top: 50px;
     border-radius: 5px;
-    
 
-    
+
+
 }
 
 input[type="text"] {
-    width: 50%; 
-    max-width: 500px; 
+    width: 50%;
+    max-width: 500px;
     height: 40px;
     padding: 10px;
     font-size: 18px;
     box-sizing: border-box;
 }
 
-button{
-    
-        width: 50%; 
-        max-width:60px; 
-        height: 40px;
-        padding: 10px;
-        font-size: 18px;
-        box-sizing: border-box;
+button {
+
+    width: 50%;
+    max-width: 60px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
 
 }
- ul li {
+
+li {
     cursor: pointer;
     list-style: none;
     padding: 7px;
-    position:relative;
-
-
- }
- ul li::before{
-    content:'';
-    height:28px;
-    width: 28px;
-    border-radius: 50%;
-    background-image: url(url(imges/black box.jpeg));
-    background-position:center;
-
- }
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-inline: auto;
+}
